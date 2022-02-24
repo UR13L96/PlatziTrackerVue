@@ -1,0 +1,36 @@
+body > #app {
+    padding: 0;
+    background-color: #1e1e2c;
+    height: 100vh;
+
+    color: #a9a9b1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+.main-container {
+    background-color: #28293b;
+    border-radius: 16px;
+}
+
+.form-control, .form-control:active, .form-control:focus {
+    background-color: transparent;
+    color: white;
+}
+
+.btn.btn-primary {
+    background-color: #f7a32b;
+    border-color: #f7a32b;
+    font-weight: 600;
+}
+
+.table-dark {
+    --bs-table-bg: #28293c;
+}
+
+.table-dark button {
+    background-color: transparent;
+    border: none;
+}
